@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: sending-mails
+
+  mail:
+    host: smtp.gmail.com
+    username: yourMail
+    password: generatedPasswordFromGoogleMail
+    port: 587
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: true
+          auth: true
